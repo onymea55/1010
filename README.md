@@ -8,7 +8,7 @@ This project gathers together our study of reinforcement learning applied to the
 
 Demo
 ------------
-Below is a demo of a 1010! game played by our trained network.
+Below is a gif demo of a 1010! game played by our trained network.
 ![1010 Demo](demo_1.gif)
 
 Installation
@@ -22,3 +22,5 @@ pip3 install -r requirements.txt
 How to use (quick start)
 ----------
 This project runs with python 3.8.
+
+### Play a party ###
