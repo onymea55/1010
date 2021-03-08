@@ -22,7 +22,7 @@ pip install -e gym-tenten
 
 How to use 
 ----------
-This project runs with python 3.8.
+This project runs with python 3.8. Training can be performed under any OS but the gif creation part to display games does not work with windows.
 
 ### Play a party ###
 * You can play a single game with a pre-trained model of your choice. One trained model is already available in the trained_model folder. Specify the model you want to use (our trained model in the example below) and how you want to name the gif it will generate. This gif will show the game played, including your score as in the *Demo*. Run: 
