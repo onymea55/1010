@@ -1,7 +1,7 @@
 A reinforcement study of the game 1010!
 ===================
 
-This project gathers together our study of reinforcement learning applied to the puzzle game 1010!. M includes:
+This project gathers together our study of reinforcement learning applied to the puzzle game 1010!. That includes:
 * Our implementation of the environment (compatible with an AIGYM agent)
 * A pre-trained agent, trained with the reference parameters described in our report
 * Files to train an agent with the parameters you pick and see its performance
