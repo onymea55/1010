@@ -1,0 +1,13 @@
+Session name : ON_RECOMMENCE_TOUT_C_RIGOLO
+Description : 
+Start time : 2021-03-06 14:30:22.005551
+Session parameters : 
+lr = 1e-06
+gamma=0.75
+batch size=32
+epsilon start=1.0
+epsilon_ end=0.001
+epsilon deacy episodes number = 5000
+nb of episodes=10000
+update rate=20
+Loss function=L1
