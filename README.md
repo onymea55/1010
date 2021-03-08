@@ -35,7 +35,7 @@ python eval.py results/trained_model/model.pth
 ```
 
 ### Train a model ###
-You can train a model choosing your own parameters (learning rate, epsilon decay...). To do so use:
+You can train a model choosing your own parameters (learning rate, epsilon decay...). This will register the model you trained in results/\[name_of_your_session]/model.pth. To do so use:
 ```bash
 python train.py [options] SESSION_NAME
 
