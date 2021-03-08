@@ -64,3 +64,19 @@ optional arguments:
   -v, --verbose         Set verbose mode on blablablabla
   --resume MODEL        Load a checkpoint to resume training
 ```
+
+The default parameters are:
+```bash
+-n = 10
+-b = 32
+-m = 3
+--lr = 1e-6
+-g = 0.8
+--eps-start = 1
+--eps-end = 10e-3
+--decay-epi = 10000
+-e = 50000
+-u = 20
+--loss = L1
+-v = False
+```
