@@ -29,7 +29,10 @@ This project runs with python 3.8.
 ```bash
 python play.py results/trained_model/model.pth gif_name
 ```
-* You can play 50 games in a row with a pre-trained model of your choice. This will also compute some statistics on the games played (average score, best score) and will create a gif of the game with the best score.
+* You can play 50 games in a row with a pre-trained model of your choice. This will also compute some statistics on the games played (average score, best score) and will create a gif of the game with the best score, naming it best_game_\[corresponding score\]
+```bash
+python eval.py results/trained_model/model.pth
+```
 
 ### Train a model ###
 You can train a model choosing your own parameters (learning rate, epsilon decay...). To do so use:
