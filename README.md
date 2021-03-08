@@ -9,7 +9,7 @@ This project gathers together our study of reinforcement learning applied to the
 Demo
 ------------
 Below is a demo of a 1010! game played by our trained network.
-![1010 Demo](demo/demo.gif)
+![1010 Demo](demo_1.gif)
 
 Installation
 ------------
