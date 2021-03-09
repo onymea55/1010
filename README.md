@@ -25,18 +25,18 @@ How to use
 This project runs with python 3.8. Training can be performed under any OS but the gif creation part to display games does not work with windows.
 
 ### Play a game ###
-* You can play a single game with a pre-trained model of your choice. One trained model is already available in the trained_model folder. Specify the model you want to use (our trained model in the example below) and how you want to name the gif it will generate. This gif will show the game played, including your score as in the *Demo*. Run: 
+* You can play a single game with a pre-trained model of your choice. One trained model is already available in the `trained_model` folder. Specify the model you want to use (our trained model in the example below) and how you want to name the gif it will generate. This gif will show the game played, including your score as in the *Demo*. Run: 
 ```bash
 python play.py results/trained_model/model.pth gif_name
 ```
-* You can play 50 games in a row with a pre-trained model of your choice. This will also compute some statistics on the games played (average score, best score) and will create a gif of the game with the best score, naming it best_game_\[corresponding score\]
+* You can play 50 games in a row with a pre-trained model of your choice. This will also compute some statistics on the games played (average score, best score) and will create a gif of the game with the best score, naming it `best_game_[corresponding score]`
 ```bash
 python eval.py results/trained_model/model.pth
 ```
 
 ### Train a model ###
-You can train a model choosing your own parameters (learning rate, epsilon decay...). This will register the model you trained in results/\[name_of_your_session]/model.pth. To do so use:
-```bash
+You can train a model choosing your own parameters (learning rate, epsilon decay...). This will register the model you trained in `results/[name_of_your_session]/model.pth`. To do so use:
+```
 python train.py [options] SESSION_NAME
 
 positional arguments:
@@ -66,7 +66,7 @@ optional arguments:
 ```
 
 The default parameters are:
-```bash
+```
 -n = 10
 -b = 32
 -m = 3
